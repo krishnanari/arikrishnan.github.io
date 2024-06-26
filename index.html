@@ -50,6 +50,14 @@
             line-height: 1.5;
         }
 
+        .bio-data {
+            line-height: 1.6;
+        }
+
+        .bio-data-item {
+            margin-bottom: 10px;
+        }
+
         .project {
             margin-bottom: 20px;
         }
@@ -77,47 +85,131 @@
 
 <body>
     <header>
-        <h1>Data Science Portfolio</h1>
+        <h1>Portfolio</h1>
     </header>
 
     <section>
-        <h2>About Me</h2>
-        <p>Hi, I'm Ari Krishnan.I am a data science enthusiast with a strong foundation in IT, specializing in 		data analysis, machine learning, and statistical modeling. I am passionate about solving problems 		and deriving actionable insights from data to drive informed decision-making. My goal is to 			leverage my skills to contribute to innovative projects and help organizations make data-driven 		decisions.
+	<h2>Objective</h2>
+        <p>Enthusiastic Data Science graduate with hands-on experience in data preprocessing, exploratory data analysis, and visualization. Eager to apply 	my analytical skills and knowledge of statistical modeling to solve real-world problems and support business objectives.
 	</p>
+        <h2>About Me</h2>
+        <div class="bio-data">
+            <div class="bio-data-item"><strong>Name:</strong>Ari Krishnan</div>
+            <div class="bio-data-item"><strong>Degree:</strong> B.Tech-Information Technology</div>
+            <div class="bio-data-item"><strong>Skills:</strong>
+                <div>Python</div>
+                <div>Data Preprocessing</div>
+                <div>EDA</div>
+                <div>Pandas</div>
+                <div>Streamlit</div>
+                <div>Visualization</div>
+                <div>PowerBi</div>
+            </div>
+	    <div class="bio-data-item"><strong>Location:</strong>Tuticorin</div>
+	    <div class="bio-data-item"><strong>Languages Known:</strong>
+		<div>English</div>
+		<div>Tamil</div>
+        </div>
     </section>
 
     <section class="project">
         <h2>Project 1: YouTube Data Harvesting and Warehousing</h2>
         <p class="subtitle">Overview:</p>
-        <p>It is a project aimed at developing a user-friendly Streamlit application that leverages the power of the Google API to extract valuable 	information from YouTube channels. The SQL database will be used to create tables and make them accessible for analysis and exploration within the 	Streamlit app.</p>
-	<p class="subtitle">Webpage Overview:</p>
+        <p>It is a project aimed at developing a user-friendly Streamlit application that leverages the power of the Google API to extract valuable
+	information from YouTube channels. The SQL database will be used to create tables and make them accessible for analysis and exploration within 	the 	Streamlit app.</p>
+        <p class="subtitle">Webpage Overview:</p>
         <img src="Screenshot 2024-06-25 161505.png" alt="Project 1 Screenshot">
-	<img src="Screenshot 2024-06-25 162914.png" alt="Project 1 Screenshot">
-	<img src="Screenshot 2024-06-25 163233.png" alt="Project 1 Screenshot">
+        <img src="Screenshot 2024-06-25 162914.png" alt="Project 1 Screenshot">
+        <img src="Screenshot 2024-06-25 163233.png" alt="Project 1 Screenshot">
         <p class="subtitle">Key Technologies and Skills:</p>
         <ul>
             <li>Python</li>
-            <li>Scikit-Learn</li>
+            <li>Streamlit</li>
             <li>Pandas</li>
-            <li>Data Analysis</li>
-            <li>Machine Learning</li>
+            <li>Youtube Api</li>
+            <li>Mysql</li>
         </ul>
         <p class="subtitle">GitHub Link:</p>
         <p><a href="https://github.com/krishnanari/youtube" target="_blank">GitHub Repository</a></p>
     </section>
 
     <section class="project">
-        <h2>Project 2: Data Visualization</h2>
+        <h2>Project 2: PHONEPE DATA VISUALIZATION AND EXPLORATION</h2>
         <p class="subtitle">Overview:</p>
-        <p>Created interactive dashboards to visualize sales data.</p>
-        <img src="screenshot2.png" alt="Project 2 Screenshot">
+        <p>This Streamlit web application is designed for visualizing and exploring PhonePe data, including aggregated transaction data, aggregated user
+            data, map transaction data, map user data, top transaction data, and top user data.</p>
+        <p class="subtitle">FEATURES:</p>
+        <ul>
+            <li>Aggregated Analysis</li>
+            <li>Map Analysis</li>
+            <li>Top Analysis</li>
+        </ul>
+        <p class="subtitle">Webpage Overview:</p>
+        <img src="Screenshot 2024-06-26 092843.png" alt="Project 2 Screenshot">
+        <img src="Screenshot 2024-06-26 092854.png" alt="Project 2 Screenshot">
+        <img src="Screenshot 2024-06-26 092908.png" alt="Project 2 Screenshot">
         <p class="subtitle">Key Technologies and Skills:</p>
-        <p>Python, Plotly, Dash, Data Visualization, Dashboard Development</p>
+        <ul>
+            <li>Python</li>
+            <li>Streamlit</li>
+            <li>Pandas</li>
+            <li>Mysql</li>
+        </ul>
         <p class="subtitle">GitHub Link:</p>
-        <p><a href="https://github.com/username/project2" target="_blank">GitHub Repository</a></p>
+        <p><a href="https://github.com/krishnanari/phonepe" target="_blank">GitHub Repository</a></p>
     </section>
 
-    <!-- Add more project sections as needed -->
+    <section class="project">
+        <h2>Project 3: BIZCARDX-BUSINESS CARD DATA EXTRACTION WITH OCR</h2>
+        <p class="subtitle">Overview:</p>
+        <p>BIZCARDX is a Python-based application designed to extract and manage information from business cards using Optical Character Recognition (OCR)
+            with the help of EasyOCR, Streamlit, and SQLite. This tool automates the extraction of key details from business card images, such as name,
+            designation,company name, contact information, email, website, address, and pincode, and stores the data in a SQLite database.</p>
+        <p class="subtitle">FEATURES:</p>
+        <ul>
+            <li>Image Upload and Text Extraction: Upload business card images and extract text using EasyOCR</li>
+            <li>Data Display and Storage: Display extracted data in a table and save it to a SQLite database</li>
+            <li>Data Modification: Modify existing records in the database</li>
+            <li>Streamlit Interface: User-friendly interface built with Streamlit</li>
+        </ul>
+        <p class="subtitle">Webpage Overview:</p>
+        <img src="Screenshot 2024-06-26 094753.png" alt="Project 2 Screenshot">
+        <img src="Screenshot 2024-06-26 094937.png" alt="Project 2 Screenshot">
+        <img src="Screenshot 2024-06-26 095000.png" alt="Project 2 Screenshot">
+        <p class="subtitle">Key Technologies and Skills:</p>
+        <ul>
+            <li>Python</li>
+            <li>EasyOCR</li>
+            <li>Streamlit</li>
+            <li>Pandas</li>
+            <li>Sqlite3</li>
+            <li>Numpy,PIL,re</li>
+        </ul>
+        <p class="subtitle">GitHub Link:</p>
+        <p><a href="https://github.com/krishnanari/BizCardX" target="_blank">GitHub Repository</a></p>
+    </section>
+
+    <section class="project">
+        <h2>Project 4: Airbnb Analysis</h2>
+        <p class="subtitle">Overview:</p>
+        <p>Airbnb is an online marketplace that connects people who want to rent out their property with people who are looking for accommodations,typically	for short stays. Airbnb offers hosts a relatively easy way to earn some income from their property.Guests often find that Airbnb rentals are cheaper	and homier than hotels. Airbnb Inc (Airbnb) operates an online platform for hospitality services.The company has presence in China, India, Japan, 	Australia, Canada, Austria, Germany, Switzerland, Belgium, Denmark, France, Italy, Norway, 	Portugal, Sweden, the Netherlands, and Brazil, among 	others. Airbnb is headquartered in San Francisco, California, the US.</p>
+	<p class="subtitle">Webpage Overview:</p>
+        <img src="Screenshot 2024-06-26 100457.png" alt="Project 2 Screenshot">
+	<img src="Screenshot 2024-06-26 100654.png" alt="Project 2 Screenshot">
+	<img src="Screenshot 2024-06-26 100729.png" alt="Project 2 Screenshot">
+        <p class="subtitle">Key Technologies and Skills:</p>
+        <ul>
+            <li>Python</li>
+	    <li>DATA PREPROCESSING</li>
+	    <li>EDA</li>
+	    <li>Pandas</li>
+            <li>Streamlit</li>
+            <li>VISUALIZATION</li>
+            <li>PowerBi</li>
+         </ul>
+        <p class="subtitle">GitHub Link:</p>
+        <p><a href="https://github.com/krishnanari/Airbnb" target="_blank">GitHub Repository</a></p>
+    </section>
 
     <footer>
         <p>&copy; 2024 Data Science Portfolio</p>
